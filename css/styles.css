@@ -1,0 +1,62 @@
+
+/**********************************TAG SELECTORS********************************************/
+
+body{
+  background-color: grey;
+}
+
+h1{
+  color: black; font-size: 55px;  /*we can write code like this*/
+}
+
+h3{
+  color: white;                   /*But best practice is writing in this way. every part of code in new line.*/
+  font-size: 25px;
+}
+
+/*COMMENT in CSS*/
+
+img:hover {    /*The :hover selector is used to select elements when you mouse over them.*/
+  background-color: gold;
+}
+
+
+
+/********************************** CLASS SELECTORS *************************************/
+
+ /*To use mango class to implement css properties in img tag*/
+.mango{               /* Dot/full stop(.) is used to define class here.*/
+  background-color: green;
+}
+
+.burger{
+  background-color: red;
+}
+
+.circular{
+  border-radius: 100%;
+}
+
+/*Note : CLASS SELECTORS are more specific then directly implemented properties. Like Here image background-color property of class selector overrides the direcly implemented img background color property of Tag Selectors.*/
+
+
+/********************************** ID SELECTORS ******************************************/
+
+/*To use heading id from the h1 heading*/
+
+/*'#' is used to implement id properties of CSS*/
+
+#heading{
+  color: blue;
+  }
+
+/*Note : Similarly, ID SELECTORS are more specific then directly implemented properties. Like Here heading1 blue color property of id selector overrides the direcly implemented h1 black color property of Tag Selectors.*/
+
+
+
+/********************Notes*******************/
+/* 1. Use Classes when you want to apply the same style to a group of related items and
+   2. Use the Id to apply a specific style to a single element in the web page.
+
+   3. In one web page there can be several Ids but not with the same Id name/property.
+   4.Any html element can have more than one class but it'll only have one id.  Ex : <img class="mango circular">*/
